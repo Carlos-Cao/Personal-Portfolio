@@ -1,11 +1,25 @@
-function Main() {
+import Navigation from "./Navigation";
+
+export default function Main() {
   return (
-    <div>
-      <h1>Carlos Cao</h1>
-      <h2>Software Developer</h2>
-      <hr></hr>
-    </div>
+    <section id="main">
+      <div className="bg-turquoise">
+        <header className="absolute inset-x-0 top-0 z-50">
+          <Navigation />
+        </header>
+        <div className="relative isolate px-6 pt-14 lg:px-8">
+          <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
+            <div className="text-center">
+              <h1 className="text-4xl tracking-tight text-white sm:text-6xl">
+                Carlos Cao
+              </h1>
+              <h2 className="mt-6 text-lg leading-8 text-white">
+                Software Developer
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   );
 }
-
-export default Main;
