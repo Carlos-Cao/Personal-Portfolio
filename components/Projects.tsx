@@ -4,48 +4,42 @@ const posts = [
     title: "BookLook Up",
     href: "https://github.com/Carlos-Cao/Book-Searcher",
     description: "Google Books library searcher",
-    imageUrl:
-      "https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024__480.jpg",
+    imageUrl: "/BookLookUp.png",
   },
   {
     id: 2,
     title: "Covid-19 Tracker",
     href: "https://github.com/Carlos-Cao/COVID-19-Tracker",
     description: "Cases confirmed, recovered and deaths",
-    imageUrl:
-      "https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024__480.jpg",
+    imageUrl: "/CovidTracker.png",
   },
   {
     id: 3,
     title: "Pokédex",
     href: "https://github.com/Carlos-Cao/Pokedex",
     description: "Pokédex for Pokémon",
-    imageUrl:
-      "https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024__480.jpg",
+    imageUrl: "/Pokedex.png",
   },
   {
     id: 4,
     title: "Bug-Tracker",
     href: "https://github.com/Carlos-Cao/Bug-Tracker",
     description: "Track Software bugs",
-    imageUrl:
-      "https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024__480.jpg",
+    imageUrl: "/BugTracker.png",
   },
   {
     id: 5,
     title: "LiveQuery",
     href: "https://github.com/Carlos-Cao/Live-Query",
     description: "Perfect for Live Q&A",
-    imageUrl:
-      "https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024__480.jpg",
+    imageUrl: "/LiveQuery.png",
   },
   {
     id: 6,
     title: "Auto Clicker",
     href: "https://github.com/Carlos-Cao/Auto-Clicker",
     description: "Auto-Clicker Bot",
-    imageUrl:
-      "https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024__480.jpg",
+    imageUrl: "/AutoClicker.png",
   },
 ];
 
@@ -64,15 +58,15 @@ export default function Projects() {
               <div key={post.id}>
                 <article key={post.id} className="max-w-xl">
                   <div className="flex flex-col items-center">
-                    <div className="relative">
+                    <div className="image-container">
                       <img
                         src={post.imageUrl}
                         alt=""
-                        className="bg-gray-50 object-cover w-full"
+                        className="bg-gray-50 object-cover w-64 h-64 border border-gray-300"
                       />
                     </div>
                     <div className="mt-3 text-center">
-                      <h3 className="text-lg font-semibold leading-6 text-gray-900">
+                      <h3 className="text-lg font-semibold leading-6 text-gray-900 hover:underline">
                         <a href={post.href}>{post.title}</a>
                       </h3>
                       <p className="mt-1 text-sm leading-6 text-gray-600 line-clamp-3">

@@ -24,7 +24,7 @@ export default function Navigation() {
               <a
                 key={item.name}
                 href={item.href}
-                className="block text-sm font-semibold leading-6 text-white hover:text-gray-100 my-3"
+                className="block text-sm font-semibold leading-6 text-white hover:text-gray-100 hover:underline my-3"
               >
                 {item.name}
               </a>
@@ -35,7 +35,7 @@ export default function Navigation() {
               <a
                 key={item.name}
                 href={item.href}
-                className="text-sm font-semibold leading-6 text-white hover:text-gray-100 mr-12"
+                className="text-sm font-semibold leading-6 text-white hover:text-gray-100 mr-12 hover:underline"
               >
                 {item.name}
               </a>
