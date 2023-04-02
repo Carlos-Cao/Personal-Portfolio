@@ -84,8 +84,8 @@ export default function Skills() {
                 </tr>
               </thead>
               <tbody>
-                {skills.map((row, index) => (
-                  <tr key={index}>
+                {skills.map((row) => (
+                  <tr key={row.id}>
                     <td className="whitespace-nowrap px-4 py-2 sm:px-6 lg:px-8">
                       {row.programmingLanguage}
                     </td>
