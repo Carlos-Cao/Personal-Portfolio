@@ -52,7 +52,7 @@ const posts = [
 export default function Projects() {
   return (
     <section id="projects">
-      <div className="bg-lightGrey py-10 sm:py-12 md:py-16 lg:py-24">
+      <div className="bg-lightGrey py-10 sm:py-12 md:py-16 lg:py-24 relative isolate overflow-hidden">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div className="mx-auto max-w-2xl">
             <h2 className="text-center text-3xl text-decoration-line: underline text-black mb-8 sm:mb-12">

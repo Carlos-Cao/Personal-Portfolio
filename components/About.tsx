@@ -12,7 +12,7 @@ const about = [
 export default function About() {
   return (
     <section id="about">
-      <div className="bg-lightGrey py-24 sm:py-32">
+      <div className="bg-lightGrey py-24 sm:py-32 relative isolate overflow-hidden">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="mx-auto max-w-2xl lg:text-center">
             <h2 className="text-center text-3xl text-decoration-line: underline tracking-tight text-black">

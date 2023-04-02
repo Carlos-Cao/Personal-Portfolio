@@ -60,7 +60,7 @@ const skills = [
 export default function Skills() {
   return (
     <section id="skills">
-      <div className="bg-white py-8 sm:py-12 lg:py-24">
+      <div className="bg-white py-8 sm:py-12 lg:py-24 relative isolate overflow-hidden">
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           <h2 className="text-center text-3xl text-decoration-line: underline text-black mb-8 sm:mb-12">
             Skills
