@@ -20,7 +20,7 @@ export default function About() {
             </h2>
             <div className="border-t border-gray-200 sm:mt-5 sm:pt-5 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               {about.map((item) => (
-                <div className="mt-6">
+                <div className="mt-6" key={item.id}>
                   <p className="text-lg sm:text-lgleading-9 text-gray-600">
                     {item.introduction}
                   </p>
