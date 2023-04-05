@@ -20,18 +20,21 @@ export default function Footer() {
                 <a
                   href="https://github.com/Carlos-Cao"
                   className="hover:scale-110 transform transition-all"
+                  aria-label="Check out my Github"
                 >
                   <Icon path={mdiGithub} size={1} className="mr-2" />
                 </a>
                 <a
                   href="https://nz.linkedin.com/in/carloscao"
                   className="hover:scale-110 transform transition-all"
+                  aria-label="Check out my Linkedin"
                 >
                   <Icon path={mdiLinkedin} size={1} className="mr-2" />
                 </a>
                 <a
                   href="https://stackoverflow.com/users/14185445/cc337"
                   className="hover:scale-110 transform transition-all"
+                  aria-label="Check out my Stack Overflow"
                 >
                   <Icon path={mdiStackOverflow} size={1} />
                 </a>

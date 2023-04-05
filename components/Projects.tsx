@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const posts = [
   {
     id: 1,
@@ -59,9 +61,11 @@ export default function Projects() {
                 <article key={post.id} className="max-w-xl">
                   <div className="flex flex-col items-center">
                     <div className="image-container">
-                      <img
+                      <Image
                         src={post.imageUrl}
-                        alt=""
+                        alt={post.title}
+                        width={640}
+                        height={640}
                         className="bg-gray-50 object-cover w-64 h-64 border border-gray-300"
                       />
                     </div>
