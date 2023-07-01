@@ -69,8 +69,8 @@ const skills = [
     toolIcon: <Icon path={mdiDocker} size={1} />,
     framework: "Node.js",
     frameworkIcon: <Icon path={mdiNodejs} size={1} />,
-    certification: "",
-    certificationIcon: "",
+    certification: "Microsoft Certified: Azure AI Fundamentals",
+    certificationIcon: <Icon path={mdiMicrosoft} size={1} />,
   },
   {
     id: 5,
@@ -80,8 +80,8 @@ const skills = [
     toolIcon: <Icon path={mdiMicrosoftAzure} size={1} />,
     framework: ".NET",
     frameworkIcon: <Icon path={mdiDotNet} size={1} />,
-    certification: "",
-    certificationIcon: "",
+    certification: "Microsoft Certified: Azure Data Fundamentals",
+    certificationIcon: <Icon path={mdiMicrosoft} size={1} />,
   },
   {
     id: 6,
@@ -91,8 +91,9 @@ const skills = [
     toolIcon: <Icon path={mdiWrench} size={1} />,
     framework: "Apache Kafka",
     frameworkIcon: <Icon path={mdiApacheKafka} size={1} />,
-    certification: "",
-    certificationIcon: "",
+    certification:
+      "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
+    certificationIcon: <Icon path={mdiMicrosoft} size={1} />,
   },
   {
     id: 7,
