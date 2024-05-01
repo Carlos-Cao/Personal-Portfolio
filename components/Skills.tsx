@@ -25,6 +25,8 @@ import {
   mdiBootstrap,
   mdiChevronRight,
   mdiMicrosoft,
+  mdiCloud,
+  mdiAws,
 } from "@mdi/js";
 
 const skills = [
@@ -38,6 +40,8 @@ const skills = [
     frameworkIcon: <Icon path={mdiReact} size={1} />,
     certification: "Microsoft Certified: Azure Fundamentals",
     certificationIcon: <Icon path={mdiMicrosoft} size={1} />,
+    certificationLink:
+      "https://www.credly.com/badges/71fa60f9-2b91-4a40-af00-e44a9d9dbb4b",
   },
   {
     id: 2,
@@ -49,6 +53,8 @@ const skills = [
     frameworkIcon: <Icon path={mdiLeafCircle} size={1} />,
     certification: " Microsoft Certified: Azure Developer Associate",
     certificationIcon: <Icon path={mdiMicrosoft} size={1} />,
+    certificationLink:
+      "https://www.credly.com/badges/9070e05c-7cdc-4a60-ba28-84252d00d8c8",
   },
   {
     id: 3,
@@ -60,6 +66,8 @@ const skills = [
     frameworkIcon: <Icon path={mdiTailwind} size={1} />,
     certification: "Microsoft Certified: DevOps Engineer Expert",
     certificationIcon: <Icon path={mdiMicrosoft} size={1} />,
+    certificationLink:
+      "https://www.credly.com/badges/37072a25-93c0-4742-88c5-5b12dc87c617",
   },
   {
     id: 4,
@@ -71,6 +79,8 @@ const skills = [
     frameworkIcon: <Icon path={mdiNodejs} size={1} />,
     certification: "Microsoft Certified: Azure AI Fundamentals",
     certificationIcon: <Icon path={mdiMicrosoft} size={1} />,
+    certificationLink:
+      "https://www.credly.com/badges/27c80d9d-a539-43cd-82ad-429437947cbb",
   },
   {
     id: 5,
@@ -82,6 +92,8 @@ const skills = [
     frameworkIcon: <Icon path={mdiDotNet} size={1} />,
     certification: "Microsoft Certified: Azure Data Fundamentals",
     certificationIcon: <Icon path={mdiMicrosoft} size={1} />,
+    certificationLink:
+      "https://www.credly.com/badges/e7127957-33e6-4b70-b678-b574b9903c03",
   },
   {
     id: 6,
@@ -94,6 +106,8 @@ const skills = [
     certification:
       "Microsoft Certified: Security, Compliance, and Identity Fundamentals",
     certificationIcon: <Icon path={mdiMicrosoft} size={1} />,
+    certificationLink:
+      "https://www.credly.com/badges/d28b5977-ffcc-4a04-b12b-6260a10b857d",
   },
   {
     id: 7,
@@ -103,8 +117,10 @@ const skills = [
     toolIcon: <Icon path={mdiKubernetes} size={1} />,
     framework: "Bootstrap",
     frameworkIcon: <Icon path={mdiBootstrap} size={1} />,
-    certification: "",
-    certificationIcon: "",
+    certification: "Oracle Certified Foundations Associate",
+    certificationIcon: <Icon path={mdiCloud} size={1} />,
+    certificationLink:
+      "https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC4698595&trackId=OCIF2023CA&key=f51ba9fd54eed343b5d24a13cb25d9d6e0899456",
   },
   {
     id: 8,
@@ -114,8 +130,10 @@ const skills = [
     toolIcon: <Icon path={mdiJira} size={1} />,
     framework: "Next.js",
     frameworkIcon: <Icon path={mdiChevronRight} size={1} />,
-    certification: "",
-    certificationIcon: "",
+    certification: "AWS Certified Cloud Practitioner",
+    certificationIcon: <Icon path={mdiAws} size={1} />,
+    certificationLink:
+      "https://www.credly.com/badges/a80c3a97-638f-4700-babd-7db90809f114",
   },
 ];
 
@@ -169,7 +187,11 @@ export default function Skills() {
                     <td className="whitespace-nowrap px-4 py-2 sm:px-6 lg:px-8">
                       <div className="flex justify-center items-center">
                         {row.certificationIcon}
-                        <span className="ml-2">{row.certification}</span>
+                        <span className="ml-2">
+                          <a href={row.certificationLink} target="_blank">
+                            {row.certification}
+                          </a>
+                        </span>
                       </div>
                     </td>
                   </tr>
