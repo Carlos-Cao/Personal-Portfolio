@@ -2,10 +2,10 @@ const about = [
   {
     id: 1,
     introduction:
-      "Hello there, my name is Carlos Cao and I am a Developer based in Auckland, New Zealand",
+      "Hello! My name is Carlos Cao, and I am a Developer based in Auckland, New Zealand (NZ).",
     content:
-      "I specialise in Backend Integration Development and have a background in CS. I am deeply passionate about technology because of it's limitless potential to create positive impact in our lives. From automating tedious tasks to solving complex problems, coding allows me to create solutions that make a difference. As a Developer, I take pride in crafting efficient algorithms and debugging complex software. I am always looking for ways to improve my skills and stay up to date with the latest trends and technologies in the industry.",
-    end: "Whether I am collaborating with others or working independently, I bring a sharp analytical mind and attention to detail to every project I work on. I believe that technology is more than just a tool, it is the driving force behind progress and innovation.",
+      "With over three years of experience collaborating on diverse teams and client projects, my expertise lies in Backend Development. Grounded in a strong foundation in CS, I excel at automating tasks and tackling intricate challenges with code.",
+    end: "Technology is continuously pushing boundaries and opening new possibilities for advancement. I am deeply fascinated by the limitless potential technology has to reshape the way we live, work, and interact with the world around us.",
   },
 ];
 
@@ -18,7 +18,7 @@ export default function About() {
             <h2 className="text-center text-3xl text-decoration-line: underline tracking-tight text-black">
               About Me
             </h2>
-            <div className="border-t border-gray-200 sm:mt-5 sm:pt-5 lg:mx-0 lg:max-w-none lg:grid-cols-3">
+            <div className="mx-auto mt-5 text-center gap-y-16 gap-x-8 border-t border-gray-200 pt-10 sm:mt-5 sm:pt-5 lg:mx-0 lg:max-w-none lg:grid-cols-3">
               {about.map((item) => (
                 <div className="mt-6" key={item.id}>
                   <p className="text-lg sm:text-lgleading-9 text-gray-600">

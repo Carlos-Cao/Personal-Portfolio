@@ -120,7 +120,7 @@ const skills = [
     certification: "Oracle Certified Foundations Associate",
     certificationIcon: <Icon path={mdiCloud} size={1} />,
     certificationLink:
-      "https://brm-certview.oracle.com/ords/certview/ecertificate?ssn=OC4698595&trackId=OCIF2023CA&key=f51ba9fd54eed343b5d24a13cb25d9d6e0899456",
+      "https://catalog-education.oracle.com/pls/certview/sharebadge?id=379EAE22C515E2E1A562ABA84B38EC8C11FBC81448401D8AB20957D97E3F3A30&fbclid=IwZXh0bgNhZW0CMTEAAR2JkqVrJKF53TjCpWHlL91Y_U4rfjacpMXtculDxLo_IAS1RfIWNsiTx3c_aem_ATw8AqEauykvMj6R5GpINv_EAv50OQTmoNpUJXDmAD8TShZ9WW6ht2yuIMXM9RiPwaDTjs3XLGlwS-tD2DSiDI_f",
   },
   {
     id: 8,
