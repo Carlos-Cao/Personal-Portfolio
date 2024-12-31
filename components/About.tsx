@@ -2,10 +2,10 @@ const about = [
   {
     id: 1,
     introduction:
-      "Hello! My name is Carlos Cao, and I am a Developer based in Auckland, New Zealand (NZ).",
+      "Hello! My name is Carlos Cao, and I am a Developer based in Auckland, New Zealand (NZ), with over three years of experience in backend development.",
     content:
-      "With over three years of experience collaborating on diverse teams and client projects, my expertise lies in Backend Development. Grounded in a strong foundation in CS, I excel at automating tasks and tackling intricate challenges with code.",
-    end: "Technology is continuously pushing boundaries and opening new possibilities for advancement. I am deeply fascinated by the limitless potential technology has to reshape the way we live, work, and interact with the world around us.",
+      "With a strong foundation in Computer Science, I specialise in automating tasks and solving complex challenges, such as optimising backend systems for high-scale applications. I have played a key role in collaborating with diverse teams and clients, delivering scalable solutions that drive real-world impact.",
+    end: "I am passionate about leveraging technology to drive innovation and solve real-world business challenges. I am fascinated by how technology pushes boundaries and transforms how we live, work, and interact with the world.",
   },
 ];
 
