@@ -8,14 +8,15 @@ export default function Footer() {
         <footer className="mx-auto max-w-7xl px-6 lg:px-8">
           <div className="text-center flex flex-col justify-between py-4 sm:py-6">
             <div className="text-black text-sm sm:text-base relative isolate overflow-hidden items-center">
-              <p
-                className="hover:cursor-pointer"
+              <button
+                className="hover:cursor-pointer bg-transparent border-none text-black text-sm sm:text-base"
                 onClick={() => {
                   window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
                 }}
+                aria-label="Scroll to top"
               >
                 © Carlos Cao 2019
-              </p>
+              </button>
               <div className="flex justify-center items-center">
                 <a
                   href="https://github.com/Carlos-Cao"
